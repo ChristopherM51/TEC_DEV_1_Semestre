@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Summer Game Fest</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/sgf-logo.png">
+        <a href="http://localhost:52330/TrabalhoFinal2/index.html">HOME</a>
+        <a href="http://localhost:52330/TrabalhoFinal2/ingressos.html">INGRESSOS</a>
+        <a href="http://localhost:52330/TrabalhoFinal2/cadastro.html">CADASTRE-SE</a>
+    </header>
+    <div class="container">
+    <FORM ACTION="" METHOD="POST" ENCTYPE="text/plain" NAME="cadastro">
+        <p>Cadastre-se na Summer Game fest e receba todas as novidades sobre o mundo dos games.<br> Muito Obrigado!</p>
+        <br>
+        
+            <div class="row">
+                <div class="col md-6">
+                    Nome: <br> <INPUT TYPE="TEXT" NAME="nome" SIZE="45"><br>
+                    <br>
+                </div>
+                <div class="col md-6">
+                    E-mail: <br> <INPUT TYPE="TEXT" NAME="email" SIZE="45"><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    Plataformas que possui:<br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="PS"> Playstation <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="XB"> Xbox <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="NS"> Nintendo Switch <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="PC"> PC <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="SD"> Steam Deck <br>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    Estilo de jogos preferidos: <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="FPS"> FPS <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="ACV"> Ação/Aventura <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="CR"> Corrida <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="ES"> Esportes <br>
+                    <INPUT TYPE="CHECKBOX" NAME="bens" VALUE="RPG"> RPS <br>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    Jogador ou Jogadora?<br>
+                    <INPUT TYPE="RADIO" NAME="sexo" VALUE="f"> Jogador <br>
+                    <INPUT TYPE="RADIO" NAME="sexo" VALUE="m"> Jogadora <br>
+                    <br>
+                    Faixa de idade: <br>
+                    <SELECT NAME="faixaidade">
+                        <OPTION VALUE="ate12"> até 12 anos
+                        <OPTION VALUE="13a17"> 13 a 17 anos
+                        <OPTION VALUE="18a24"> 18 a 24 anos
+                        <OPTION VALUE="25a35"> 25 a 35 anos
+                        <OPTION VALUE="36a45"> 36 a 45 anos
+                        <OPTION VALUE="36a45"> mais de 45 anos
+                    </SELECT>
+                </div>
+            </div>
+            <br> 
+            <INPUT class="btn" TYPE="SUBMIT" VALUE="Cadastrar">
+    </FORM>
+    <br>
+    <hr>
+    <br>
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Sobre Nós</h6>
+                    <p class="text-justify">O Summer Game Fast é um eventento anual que reune os maiores nomes da
+                        industria dos games. Nossa missão é dar visibilidade aos criadores e seus jogos, sejam eles
+                        grandes jogos AAA ou pequenos jogos independentes.<br>
+                        Nosso evento atualmente é realizado tanto em formato digital pelos nossos canais do Youtube e
+                        Twitch quanto em formato presencial.<br>Seja presencialmente ou através dos nosso canais, todos
+                        são bem vindos no Summer Game Fest! </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Nossos Canais</h6>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <a class="Youtube" href="#"> <img src="img/YouTube-icon.png" width="40px"></a>
+                            <a class="Twitch" href="#"><img src="img/twitch-icon.png" width="40px"></a>
+                            <a class="twitter" href="#"><img src="img/twitter-icone.png" width="40px"></a>
+                            <a class="Instagran" href="#"><img src="img/instagram-icon.png" width="40px"></a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Links Rapidos</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">Ajuda</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Parcerias</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribuições</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Politica de privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright. 2023 Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

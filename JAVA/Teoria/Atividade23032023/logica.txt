@@ -1,0 +1,6 @@
+*********************Exercicio 1********************
+1- requisitar 2 numeros
+2- ler os 2 numeros
+3- pedir ao usuario que escolha a operação desejada
+4- realizar operação desejada
+5- exibir resultado 
